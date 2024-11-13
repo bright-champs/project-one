@@ -1,0 +1,25 @@
+print("press (+) to add")
+print("press (-) to subtract")
+print("press (*) to multiple")
+print("press (/) to divide")
+operator = str(input("operation?"))
+if operator == "+":
+  number_a = int(input("add number A"))
+  number_b = int(input("add number B"))
+  result = number_a + number_b
+  print(result)
+if operator == "-":
+  number_a = int(input("add number A"))
+  number_b = int(input("add number B"))
+  result = number_a - number_b
+  print(result)
+if operator == "*":
+  number_a = int(input("add number A"))
+  number_b = int(input("add number B"))
+  result = number_a * number_b
+  print(result)
+if operator == "/":
+  number_a = int(input("add number A"))
+  number_b = int(input("add number B"))
+  result = number_a / number_b
+  print(result)
